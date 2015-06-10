@@ -1,8 +1,12 @@
 package tmof
 
-type Implement interface {
+type Platform interface {
 	Ulimit() int
 	FileHandle() (int, int, int)
-	Pgrep(string) (string, string)
-	FileDescriptors(string) map[int][]string
+	Pgrep(string) [][]string
+	FileDescriptors(string) []FileDescriptor
+}
+
+type FileDescriptor interface {
+
 }
