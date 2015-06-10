@@ -3,7 +3,19 @@ tmof
 
 How to fight with `too many open files`
 
-steps
+usage
+=====
+
+just hit
+
+```shell
+# install
+go get github.com/otiai10/tmof/tmof
+# use
+tmof
+```
+
+what tmof do
 =====
 
 1. `ulimit -n`
