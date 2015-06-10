@@ -6,7 +6,3 @@ type Platform interface {
 	Pgrep(string) [][]string
 	FileDescriptors(string) []FileDescriptor
 }
-
-type FileDescriptor interface {
-
-}

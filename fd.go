@@ -1,3 +1,3 @@
-package platforms
+package tmof
 
 type FileDescriptor struct{}

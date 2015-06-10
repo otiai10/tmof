@@ -1,6 +1,4 @@
-package platforms
-
-import "github.com/otiai10/tmof"
+package tmof
 
 type Debian struct{}
 
@@ -16,8 +14,8 @@ func (deb Debian) Pgrep(pname string) [][]string {
 	return [][]string{[]string{"798", "/bin/foo"}}
 }
 
-func (deb Debian) FileDescriptors(pid string) []tmof.FileDescriptor {
-	return []tmof.FileDescriptor{
+func (deb Debian) FileDescriptors(pid string) []FileDescriptor {
+	return []FileDescriptor{
 		FileDescriptor{},
 	}
 }
