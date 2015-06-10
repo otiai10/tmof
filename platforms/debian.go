@@ -1,4 +1,5 @@
 package platforms
+
 import "github.com/otiai10/tmof"
 
 type Debian struct{}

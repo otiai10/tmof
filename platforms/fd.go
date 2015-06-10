@@ -1,3 +1,3 @@
 package platforms
 
-type FileDescriptor struct {}
+type FileDescriptor struct{}
